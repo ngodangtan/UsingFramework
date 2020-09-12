@@ -1,0 +1,11 @@
+framework module MyCommon {
+  umbrella header "MyCommon.h"
+
+  export *
+  module * { export * }
+}
+
+module MyCommon.Swift {
+    header "MyCommon-Swift.h"
+    requires objc
+}

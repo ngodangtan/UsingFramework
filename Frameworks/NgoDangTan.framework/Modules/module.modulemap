@@ -1,0 +1,11 @@
+framework module NgoDangTan {
+  umbrella header "NgoDangTan.h"
+
+  export *
+  module * { export * }
+}
+
+module NgoDangTan.Swift {
+    header "NgoDangTan-Swift.h"
+    requires objc
+}
